@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logistics Management Portal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      color: #f8fafc;
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .portal-header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .portal-header h1 {
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+    .portal-header p {
+      color: #94a3b8;
+      font-size: 1.1rem;
+    }
+    .card-portal {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      padding: 35px 25px;
+      text-align: center;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(10px);
+      height: 100%;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .card-portal:hover {
+      transform: translateY(-8px);
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(59, 130, 246, 0.5);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+    .portal-icon {
+      font-size: 3.5rem;
+      margin-bottom: 20px;
+      background: linear-gradient(135deg, #60a5fa 0%, #2563eb 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .portal-icon.dashboard {
+      background: linear-gradient(135deg, #34d399 0%, #059669 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #ffffff;
+    }
+    .card-desc {
+      font-size: 0.9rem;
+      color: #94a3b8;
+      line-height: 1.5;
+    }
+    .footer-text {
+      margin-top: 50px;
+      font-size: 0.85rem;
+      color: #64748b;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="portal-header">
+      <h1>🚀 LOGISTICS MANAGEMENT PORTAL</h1>
+      <p>ระบบบริหารจัดการและศูนย์รวมข้อมูลงานขนส่งองค์กร</p>
+    </div>
+
+    <div class="row justify-content-center g-4">
+      
+      <!-- ระบบที่ 1: Master Engine -->
+      <div class="col-md-5 col-lg-4">
+        <a href="https://worasitmz-code.github.io/WP-Logistics-Master-Engine/" target="_blank" class="card-portal">
+          <div class="portal-icon">
+            <i class="fa-solid fa-truck-fast"></i>
+          </div>
+          <div class="card-title">WP Logistics Master Engine</div>
+          <div class="card-desc">ระบบจัดการข้อมูลหน้างาน คีย์ข้อมูล บันทึกควบคุมรถประจำวัน (Truck Control Sheet) และจัดการไฟล์เทมเพลต</div>
+        </a>
+      </div>
+
+      <!-- ระบบที่ 2: Archive Dashboard -->
+      <div class="col-md-5 col-lg-4">
+        <a href="https://script.google.com/macros/s/AKfycbxflpBYw-OSDZSGrm4mtnAmRq2Yvr-uhw2JdY5540uUAMw6Km0pc5KB7NypGooHXc/exec" target="_blank" class="card-portal">
+          <div class="portal-icon dashboard">
+            <i class="fa-solid fa-chart-pie"></i>
+          </div>
+          <div class="card-title">Transport Archive Dashboard</div>
+          <div class="card-desc">ระบบสรุปผลสถิติการปฏิบัติงานขนส่ง ยอดรวมรายปี/รายเดือน กราฟแนวโน้ม และวิเคราะห์ข้อมูลระดับผู้บริหาร</div>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="footer-text">
+      &copy; 2026 Logistics Enterprise System. All rights reserved.
+    </div>
+  </div>
+
+</body>
+</html>
