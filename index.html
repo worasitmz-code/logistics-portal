@@ -74,13 +74,15 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
-    /* สไตล์สำหรับรูปภาพ Workflow ในไอคอน VV Dashboard */
+    /* ขยายขนาดรูปภาพ Workflow ให้ใหญ่ขึ้นและชัดเจนขึ้น */
     .workflow-img-icon {
       width: 100%;
-      max-height: 90px;
-      object-fit: cover;
+      max-height: 160px;
+      object-fit: contain;
+      background-color: rgba(255, 255, 255, 0.05);
       border-radius: 8px;
       margin-bottom: 20px;
+      padding: 5px;
       border: 1px solid rgba(255, 255, 255, 0.2);
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     }
@@ -136,7 +138,7 @@
         </a>
       </div>
 
-      <!-- ระบบที่ 3: VV DASHBOARD (แสดงรูปภาพ Workflow แทนไอคอน) -->
+      <!-- ระบบที่ 3: VV DASHBOARD (ขยายขนาดรูป Workflow ให้ใหญ่ขึ้น) -->
       <div class="col-md-6">
         <a href="https://script.google.com/macros/s/AKfycby-c4sDgeGPqceIIol42d7stQk9bK0IxCa7ayjO5_lYmrQaq0FB83TtTCMHMXPgfOea/exec" target="_blank" class="card-portal">
           <img src="vv-workflow.jpg.jpg" alt="VV Workflow" class="workflow-img-icon">
