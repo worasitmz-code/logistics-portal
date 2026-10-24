@@ -69,15 +69,20 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
-    .portal-icon.analysis {
-      background: linear-gradient(135deg, #f43f5e 0%, #e11d48 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
     .portal-icon.system4 {
       background: linear-gradient(135deg, #fbbf24 0%, #d97706 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+    }
+    /* สไตล์สำหรับรูปภาพ Workflow ในไอคอน VV Dashboard */
+    .workflow-img-icon {
+      width: 100%;
+      max-height: 90px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     }
     .card-title {
       font-size: 1.25rem;
@@ -131,12 +136,10 @@
         </a>
       </div>
 
-      <!-- ระบบที่ 3: VV DASHBOARD -->
+      <!-- ระบบที่ 3: VV DASHBOARD (แสดงรูปภาพ Workflow แทนไอคอน) -->
       <div class="col-md-6">
         <a href="https://script.google.com/macros/s/AKfycby-c4sDgeGPqceIIol42d7stQk9bK0IxCa7ayjO5_lYmrQaq0FB83TtTCMHMXPgfOea/exec" target="_blank" class="card-portal">
-          <div class="portal-icon analysis">
-            <i class="fa-solid fa-chart-line"></i>
-          </div>
+          <img src="vv-workflow.jpg.jpg" alt="VV Workflow" class="workflow-img-icon">
           <div class="card-title">VV DASHBOARD</div>
           <div class="card-desc">ระบบวิเคราะห์ข้อมูลสถิติเชิงลึก กราฟรายงานผลรายเดือน (Google Sheets Database) และสรุปยอดเที่ยวรถแบบเรียลไทม์[cite: 2]</div>
         </a>
