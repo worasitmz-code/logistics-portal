@@ -16,7 +16,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 20px;
+      padding: 40px 20px;
     }
     .portal-header {
       text-align: center;
@@ -68,6 +68,11 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
+    .portal-icon.system4 {
+      background: linear-gradient(135deg, #fbbf24 0%, #d97706 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
     .card-title {
       font-size: 1.25rem;
       font-weight: 700;
@@ -89,7 +94,7 @@
 </head>
 <body>
 
-  <div class="container">
+  <div class="container" style="max-width: 900px;">
     <div class="portal-header">
       <h1>🚀 LOGISTICS MANAGEMENT PORTAL</h1>
       <p>ระบบบริหารจัดการและศูนย์รวมข้อมูลงานขนส่งองค์กร</p>
@@ -98,7 +103,7 @@
     <div class="row justify-content-center g-4">
       
       <!-- ระบบที่ 1: Master Engine -->
-      <div class="col-md-6 col-lg-4">
+      <div class="col-md-6">
         <a href="https://worasitmz-code.github.io/WP-Logistics-Master-Engine/" target="_blank" class="card-portal">
           <div class="portal-icon">
             <i class="fa-solid fa-truck-fast"></i>
@@ -109,7 +114,7 @@
       </div>
 
       <!-- ระบบที่ 2: Transport Archive Dashboard -->
-      <div class="col-md-6 col-lg-4">
+      <div class="col-md-6">
         <a href="https://script.google.com/macros/s/AKfycbxflpBYwU-OSDZSgRm4mtnAmRq2Yvr-uhw2JdY5540uuAMw6Km0pc5KB7NypGooHXc/exec" target="_blank" class="card-portal">
           <div class="portal-icon dashboard">
             <i class="fa-solid fa-chart-pie"></i>
@@ -119,14 +124,25 @@
         </a>
       </div>
 
-      <!-- ระบบที่ 3: Transport & Logistics Analysis -->
-      <div class="col-md-6 col-lg-4">
+      <!-- ระบบที่ 3: VV DASHBOARD -->
+      <div class="col-md-6">
         <a href="https://script.google.com/macros/s/AKfycby-c4sDgeGPqceIIol42d7stQk9bK0IxCa7ayjO5_lYmrQaq0FB83TtTCMHMXPgfOea/exec" target="_blank" class="card-portal">
           <div class="portal-icon analysis">
             <i class="fa-solid fa-chart-line"></i>
           </div>
-          <div class="card-title">Transport & Logistics Analysis</div>
+          <div class="card-title">VV DASHBOARD</div>
           <div class="card-desc">ระบบวิเคราะห์ข้อมูลสถิติเชิงลึก กราฟรายงานผลรายเดือน (Google Sheets Database) และสรุปยอดเที่ยวรถแบบเรียลไทม์[cite: 2]</div>
+        </a>
+      </div>
+
+      <!-- ระบบที่ 4: Logistics Dashboard -->
+      <div class="col-md-6">
+        <a href="https://script.google.com/macros/s/AKfycbx5Jr5WziZ_9rGSW_cn2xV1w_OzKIm0glMe1cwC0NAiMSQoTdXO_EToCWklSi5MrMe3ew/exec" target="_blank" class="card-portal">
+          <div class="portal-icon system4">
+            <i class="fa-solid fa-database"></i>
+          </div>
+          <div class="card-title">Logistics Dashboard</div>
+          <div class="card-desc">ระบบจัดการข้อมูลและฐานข้อมูลงานขนส่งเพิ่มเติม</div>
         </a>
       </div>
 
